@@ -1,0 +1,13 @@
+name: conference-recorder
+summary: record conference call
+maintainer: gdubina <gdubina@dataart.com>
+description: |
+  record conference call
+tags:
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://juju.ubuntu.com/docs/authors-charm-metadata.html#charm-metadata
+  - misc
+subordinate: false
+provides:
+  api:
+    interface: http
